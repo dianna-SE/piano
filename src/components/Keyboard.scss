@@ -14,20 +14,42 @@
     background-color: rgb(181, 224, 226);
 }
 
-.key {
+.key, .skey, .tab, .caps, .shift, .spacebar, .backspace, .enter {
     background-color: white;
     color: rgb(104, 104, 104);
     font-size: 0.8rem;
     height: 3rem;
-    width: 3rem;
     border: 2px solid rgb(193, 235, 233);
 }
 
-.tab {
-    background-color: white;
-    color: rgb(104, 104, 104);
-    font-size: 0.8rem;
-    height: 2rem;
+.key {
     width: 3rem;
-    border: 2px solid rgb(193, 235, 233);
+}
+
+.skey {
+    width: 4.3rem;
+}
+
+.tab {
+    width: 4.5rem;
+}
+
+.caps {
+    width: 6rem;
+}
+
+.shift {
+    width: 7.5rem;
+}
+
+.spacebar {
+    width: 20.5rem;
+}
+
+.backspace {
+    width: 5rem;   
+}
+
+.enter {
+    width: 6rem;
 }
