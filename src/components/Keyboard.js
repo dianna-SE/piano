@@ -10,8 +10,11 @@ import G4 from '../notes/G3.wav';
 import A3 from '../notes/A3.wav';
 import B4 from '../notes/B2.wav';
 import C5 from '../notes/C4.wav';
-import kick from '../notes/KK_snare.wav';
-import hihat from '../notes/KK_hat.wav';
+import D5 from '../kk_sounds/triangle/D5.wav';
+import kick from '../kk_sounds/samples/kick_hats/Noise-10.wav';
+import hihat from '../kk_sounds/samples/kick_hats/Noise-11.wav';
+import hmlow from '../notes/KK_hm_low.wav';
+import hm from '../notes/KK_Hm.wav';
 
 class Keyboard extends React.Component {
 
@@ -123,9 +126,12 @@ class Keyboard extends React.Component {
                 <audio data-key="72" src={A3}></audio>
                 <audio data-key="74" src={B4}></audio>
                 <audio data-key="75" src={C5}></audio>
+                <audio data-key="76" src={D5}></audio>
                 <audio data-key="32" src={kick}></audio>
                 <audio data-key="16" src={hihat}></audio>
-                <audio data-key="" src={C4}></audio>
+                <audio data-key="49" src={hm}></audio>
+                <audio data-key="50" src={hmlow}></audio>
+                
             </div>
 
         

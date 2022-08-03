@@ -1,6 +1,12 @@
+
+$key-text: rgb(104, 104, 104);
+$key-border: 2px solid rgb(193, 235, 233);
+$keyboard-color: rgb(166, 213, 215);
+$keyboard-border: 2px solid rgb(177, 227, 211);
+
 .keyboard {
-    border: 2px solid rgb(177, 227, 211);
-    background-color: rgb(166, 213, 215);
+    border: $keyboard-border;
+    background-color: $keyboard-color;
 }
 
 .R1, .R2, .R3, .R4, .R5 {
@@ -16,10 +22,10 @@
 
 .key, .skey, .tab, .caps, .shift, .spacebar, .backspace, .enter {
     background-color: white;
-    color: rgb(104, 104, 104);
+    color: $key-text;
     font-size: 0.8rem;
     height: 3rem;
-    border: 2px solid rgb(193, 235, 233);
+    border: $key-border;
 }
 
 .key {
