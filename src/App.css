@@ -13,8 +13,11 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
+/* background */
+.App-header { 
+  background-color: #fdfdfd;
+  background-image: url("/src/img/tom_nook.gif");
+  background-size: 25rem;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
